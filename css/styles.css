@@ -640,8 +640,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 7.4375rem;
-	height: 2rem;
+    width: 9rem;
+	/* height: 4rem; */
 }
 
 .navbar-custom .navbar-brand.logo-text {
@@ -2141,7 +2141,7 @@ a:hover.back-to-top {
 	}
 
 	.form-2 #contactForm {
-		max-width: 31rem;
+		/* max-width: 31rem; */
 		margin-right: auto;
 		margin-left: auto;
 	}
