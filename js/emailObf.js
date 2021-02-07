@@ -23,6 +23,6 @@ setTimeout(() => {
   addEmailToDom('andreas', andreas, 'thetensortech.com');
 
   let contact= document.getElementById("emContact");
-  addEmailToDom2('marios', contact, 'thetensortech.com');
+  addEmailToDom2('chris', contact, 'thetensortech.com');
 
 }, 1000) 
