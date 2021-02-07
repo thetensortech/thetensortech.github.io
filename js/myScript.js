@@ -15,7 +15,7 @@ wakeUpServer= () => {
         // alert ("Error: " + this.responseText);
       }
     };
-    xhttp.open("POST", "https://bookeatbackend.herokuapp.com/post/wakeUp", true);
+    xhttp.open("POST", "https://tensortech.herokuapp.com/post/wakeUp", true);
     xhttp.setRequestHeader("Content-type", "text/plain; charset=utf-8");
     xhttp.send(JSON.stringify(data));
   }
