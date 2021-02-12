@@ -33,6 +33,10 @@ wakeUpServer= () => {
       return;
     }
 
+    if (document.getElementById("cHP").value!= ""){
+      return;
+    }
+
     // Clear fields
     document.getElementById("cname").value= "";
     document.getElementById("cemail").value= "";
