@@ -25,4 +25,6 @@ setTimeout(() => {
   let contact= document.getElementById("emContact");
   addEmailToDom2('chris', contact, 'thetensortech.com');
 
+  document.getElementById("divHP").hidden=true;
+
 }, 1000) 
